@@ -4,7 +4,7 @@ import './Checkout.css'
 function Checkout() {
   return (
     <div className='checkout'> 
-        <h1>Checkout</h1>
+        <h1>Checkout Test chages</h1>
     </div>
   )
 }
