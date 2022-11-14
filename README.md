@@ -4,10 +4,11 @@ Snipped of current progress:
 Done:
 - Main Page
 - Checkout Page
+- Login Page
+- Connecting Firebase
 
 On Progress:
-- Login Page
- - Connecting Firebase
+- Payment
 
 <h2> Main page: </h2>
 
@@ -20,3 +21,10 @@ On Progress:
 <h2> Sign-in page: </h2>
 
 ![image](https://user-images.githubusercontent.com/91236027/201006021-015a4500-5d7f-4ef5-87ce-bbd5477d97e4.png)
+
+<h2> Home page after Sign in </h2>
+![image](https://user-images.githubusercontent.com/91236027/201569481-ab80ffb1-826f-467d-a3bd-82e39b4e6130.png)
+
+<h2> </h2>
+
+
