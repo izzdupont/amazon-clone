@@ -25,6 +25,8 @@ On Progress:
 <h2> Home page after Sign in </h2>
 ![image](https://user-images.githubusercontent.com/91236027/201569481-ab80ffb1-826f-467d-a3bd-82e39b4e6130.png)
 
-<h2> </h2>
+<h2> Checkout after Sign in </h2>
+![image](https://user-images.githubusercontent.com/91236027/201570489-82fb5735-6785-4af7-b03e-daaa89b58073.png)
+
 
 
