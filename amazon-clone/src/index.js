@@ -11,6 +11,7 @@ import { StateProvider } from "./StateProvider";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
+
 root.render(
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer}>

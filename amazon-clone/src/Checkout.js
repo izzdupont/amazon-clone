@@ -5,7 +5,17 @@ import { useStateValue } from './StateProvider';
 import Subtotal from './Subtotal';
 
 function Checkout() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
+  const getCurrentUser = async function(){
+   
+    if (getCurrentUser != null)
+    {
+      <h3> Guest </h3>
+    }
+    else {
+      <h3> {getCurrentUser} </h3>
+    }
+  }
 
   return (
     <div className='checkout'> 
@@ -17,6 +27,7 @@ function Checkout() {
         />
       
         <div>
+          <h3> Hello, {getCurrentUser}</h3>
           <h2 className='checkout__title'>
             Your Shopping Basket.. Damn stop shopping
           </h2>

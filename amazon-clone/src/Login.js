@@ -10,7 +10,7 @@ function Login() {
 
     const signIn = e => {
         signInWithEmailAndPassword(auth, email, password)
-        .then((auth) => {
+        .then((email) => {
             history.push('/')
         })
         .catch(error => alert(error.message))
