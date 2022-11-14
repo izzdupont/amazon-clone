@@ -8,7 +8,7 @@ Done:
 - Connecting Firebase
 
 On Progress:
-- Payment
+- Axio -> MySQL to fetch products
 
 <h2> Main page: </h2>
 
