@@ -2,10 +2,21 @@ import React from 'react';
 import './Home.css';
 import pic from './pic.jpg';
 import Product from './Product';
+import axios from 'axios';
+import { StateProvider, useStateValue } from "./StateProvider";
 
 console.log(pic);
 
 function Home() {
+    const [product, getProduct] = useStateValue({});
+
+    React.useInsertionEffect(() => {
+        axios.get('http://localhost:3306/amazon-warehouse/product').then((response) => 
+        {
+            getProduct(response.data);
+        });
+    })
+   
   return (
     <div classname='home'>
         <div className="home__container">
