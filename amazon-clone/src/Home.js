@@ -6,19 +6,39 @@ import axios from 'axios';
 import { StateProvider, useStateValue } from "./StateProvider";
 
 console.log(pic);
+const api = axios.create({
+    baseURL: `http://localhost:3306/amazon-warehouse/product`
+})
 
 function Home() {
     const [product, getProduct] = useStateValue({});
+    const [error, setError] = useStateValue('');
 
-    React.useInsertionEffect(() => {
-        axios.get('http://localhost:3306/amazon-warehouse/product').then((response) => 
-        {
-            getProduct(response.data);
-        });
-    })
-   
+    React.useInsertionEffect(async () => {
+        try {
+            const data = await axios.get('http://localhost:3306/amazon-warehouse/product/');
+
+            getProduct(data.data?.results)
+        } catch (e) {
+            setError('Something went wrong.')
+        }
+
+    }, [])
+
+//{product.length
+//(
+  //  <>
+    //    {product.map((product) => (
+      //      <Product
+       //     />
+      //  ))}
+  //  </>
+//)
+//} 
+
   return (
     <div classname='home'>
+        
         <div className="home__container">
             <img
             className="home__image"
@@ -26,6 +46,8 @@ function Home() {
         </div>
 
         <div className="home__row">
+        
+        
             <Product 
                 id="12321341"
                 title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
