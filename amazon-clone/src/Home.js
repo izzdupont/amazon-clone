@@ -14,16 +14,16 @@ function Home() {
     const [product, getProduct] = useStateValue({});
     const [error, setError] = useStateValue('');
 
-    React.useInsertionEffect(async () => {
-        try {
-            const data = await axios.get('http://localhost:3306/amazon-warehouse/product/');
+  //  React.useInsertionEffect(async () => {
+  //      try {
+  //          const data = await axios.get('http://localhost:3306/amazon-warehouse/product/');
 
-            getProduct(data.data?.results)
-        } catch (e) {
-            setError('Something went wrong.')
-        }
+  //          getProduct(data.data?.results)
+ //       } catch (e) {
+ //           setError('Something went wrong.')
+ //       }
 
-    }, [])
+  //  }, [])
 
 //{product.length
 //(
