@@ -42,7 +42,7 @@ function Home() {
         <div className="home__container">
             <img
             className="home__image"
-            src={pic} alt="pic" />;
+            src={"amazon.jpg"} alt="pic" />;
         </div>
 
         <div className="home__row">
@@ -50,10 +50,10 @@ function Home() {
         
             <Product 
                 id="12321341"
-                title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-                price={11.96}
+                title="TPlayStation 5 Console"
+                price={499.99}
                 rating={5}
-                image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                image="/ps5.jpg"
             />
             <Product
                 id="49538094"
@@ -67,10 +67,10 @@ function Home() {
         <div className="home__row">
             <Product
                 id="4903850"
-                title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-                price={199.99}
-                rating={3}
-                image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+                title="6Ft Artificial Christmas Tree with USB String Lights & Remote & Timer, 240 LED 8 Lighting Modes 850 Branches Tips Metal Base Stand- Detachable Fake Christmas Tree Holiday Christmas Party Decorations"
+                price={89.77}
+                rating={4}
+                image="tree.jpg"
             />
             <Product
                 id="23445930"
@@ -81,22 +81,30 @@ function Home() {
             />
             <Product
                 id="3254354345"
-                title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-                price={598.99}
-                rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+                title="LEVOIT Air Purifiers for Home Large Room, Smart WiFi and PM1/PM2.5/PM10 Monitor, H13 True HEPA Filter Captures 99.99% of Particles, Pet Allergies, Smoke, Dust, Auto Mode, Alexa Control, 1395 Sq. Ft"
+                price={398.99}
+                rating={5}
+                image="airp.jpg"
             />
         </div>
     
         <div className="home__row">
             <Product
                 id="90829332"
-                title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-                price={1094.98}
+                title="Bartesian Premium Cocktail and Margarita Machine for the Home Bar with Push-Button Simplicity and an Easy to Clean Design (55300)"
+                price={294.98}
                 rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+                image="drink.jpg"
+            />
+              <Product
+                id="3254354345"
+                title="Echo Dot (5th Gen) | Charcoal with Sengled Bluetooth Color bulb | Alexa smart home starter kit"
+                price={64.98}
+                rating={4}
+                image="echo.jpg"
             />
         </div>
+        
     </div>
   )
 }
