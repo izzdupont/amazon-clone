@@ -50,17 +50,17 @@ function Home() {
         
             <Product 
                 id="12321341"
-                title="TPlayStation 5 Console"
+                title="PlayStation 5 Console"
                 price={499.99}
                 rating={5}
-                image="/ps5.jpg"
+                image="ps5.jpg"
             />
             <Product
                 id="49538094"
-                title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+                title="Solo Stove Mesa Tabletop Fire Pit with Stand | Low Smoke Outdoor Mini Fire for Urban & Suburbs | Fueled by Pellets or Wood, Safe Burning, Stainless Steel, with Travel Bag, 6.9 x 5.1 in, 1.4lbs, Water"
                 price={239.0}
                 rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+                image="fire.jpg"
             />
         </div>
 
@@ -68,16 +68,16 @@ function Home() {
             <Product
                 id="4903850"
                 title="6Ft Artificial Christmas Tree with USB String Lights & Remote & Timer, 240 LED 8 Lighting Modes 850 Branches Tips Metal Base Stand- Detachable Fake Christmas Tree Holiday Christmas Party Decorations"
-                price={89.77}
+                price={109.99}
                 rating={4}
                 image="tree.jpg"
             />
             <Product
                 id="23445930"
-                title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-                price={98.99}
+                title="Shure SM7B Vocal Dynamic Microphone + Gator 3000 Boom Stand for Broadcast, Podcast & Recording, XLR Studio Mic for Music & Speech, Wide-Range Frequency, Warm & Smooth Sound, Detachable Windscreen"
+                price={499.00}
                 rating={5}
-                image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+                image="mic.jpg"
             />
             <Product
                 id="3254354345"
